@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#033a91" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <title>Flyboys</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <div class="atmosphere" aria-hidden="true"></div>
+
+      <header class="hero">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="./assets/flyboy.png" alt="" />
+        </div>
+        <img class="wordmark" src="./assets/flyboys-wordmark.svg" alt="flyboys" />
+        <p>A tiny studio making apps that we enjoy building and hope you'll enjoy using.</p>
+      </header>
+
+      <section class="carousel-section" aria-label="About Flyboys">
+        <div class="carousel" id="carousel">
+          <article class="slide slide-contact">
+            <div class="about-copy">
+              <div class="portraits" aria-hidden="true">
+                <div><img src="./assets/pilot-bust.png" alt="" /></div>
+                <div><img src="./assets/pilot-recreation.png" alt="" /></div>
+              </div>
+              <p>We’re a two-person design and development team that have been building things together since 2010.</p>
+            </div>
+            <div class="contact-meta">
+              <a class="email-button" href="mailto:hello@flyboys.dev"><span>Drop us a line</span></a>
+              <div class="legal"><span>©Flyboys LLC</span><a href="#privacy">Privacy policy</a></div>
+            </div>
+          </article>
+
+          <article class="slide slide-values">
+            <p>We make software simply because we like to.</p>
+            <p>We build only things we care about.</p>
+            <p>Apps should work well and look good.</p>
+            <p>We hold our work to a standard we wish more products strived for.</p>
+          </article>
+
+          <article class="slide slide-project">
+            <div class="project-copy">
+              <div class="project-brand">
+                <img class="project-icon" src="./assets/planeroll-icon.png" alt="" />
+                <img class="planeroll" src="./assets/planeroll.svg" alt="Planeroll" />
+              </div>
+              <p>We’re currently building a planespotting app for casual spotters and avgeeks alike. We’ll update this space when it’s publicly available.</p>
+            </div>
+            <div class="phone-stage"><div class="phone-frame"><span class="phone-shadow" aria-hidden="true"></span><img src="./assets/planeroll-mock.png" alt="A preview of the Planeroll app" /></div></div>
+          </article>
+        </div>
+
+        <nav class="carousel-controls" aria-label="Carousel controls">
+          <button type="button" class="arrow" data-direction="previous" aria-label="Previous slide"><img src="./assets/chevron-left.svg" alt="" /></button>
+          <div class="dots" aria-label="Current slide">
+            <button type="button" class="dot is-active" data-slide="0" aria-label="Go to slide 1"></button>
+            <button type="button" class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+            <button type="button" class="dot" data-slide="2" aria-label="Go to slide 3"></button>
+          </div>
+          <button type="button" class="arrow" data-direction="next" aria-label="Next slide"><img src="./assets/chevron-right.svg" alt="" /></button>
+        </nav>
+      </section>
+
+      <div class="modal-backdrop" id="privacy-modal" aria-hidden="true">
+        <section class="privacy-modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+          <button class="modal-close" type="button" aria-label="Close privacy policy">×</button>
+          <h2 id="privacy-title">Privacy policy</h2>
+          <p class="policy-updated">Last updated: September 16, 2026</p>
+          <p>Flyboys, LLC (&quot;Flyboys,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) develops and operates software products, including Planeroll, and operates our websites, including flyboys.dev and planeroll.app. This Privacy Policy explains how we handle information when you use our websites, apps, and related services (collectively, the &quot;Services&quot;).</p>
+          <p>We believe in collecting only the information we need and using it responsibly. We do not sell your personal information.</p>
+
+          <h3>Information We Collect</h3>
+          <h4>Information you provide to us</h4>
+          <p>We may collect information you choose to provide, including:</p>
+          <ul><li>Your email address when you sign up for news or product updates.</li><li>Your email address and the contents of messages when you contact us.</li><li>Information you choose to provide while using our products.</li></ul>
+          <h4>Information collected through our products</h4>
+          <p>Our apps may collect or process information necessary to provide their features. The specific information collected depends on the product and features you use.</p>
+          <p>We will disclose material data collection practices through this policy, the applicable product, and its App Store or other platform disclosures where required.</p>
+          <h4>Information processed by service providers</h4>
+          <p>We use third-party service providers to help operate our websites, apps, and infrastructure. These providers may process limited information as necessary to provide services on our behalf, such as website hosting, email processing, infrastructure, or application services.</p>
+
+          <h3>How We Use Information</h3>
+          <p>We may use information to:</p>
+          <ul><li>Provide and operate our products and services.</li><li>Provide features you request.</li><li>Send news and product updates you have requested.</li><li>Respond to questions, feedback, and support requests.</li><li>Maintain the security and reliability of our services.</li><li>Improve our products and services.</li><li>Comply with applicable legal obligations.</li></ul>
+
+          <h3>Email Updates</h3>
+          <p>If you provide your email address to receive news or product updates, we will use it for that purpose.</p>
+          <p>You may unsubscribe from these communications at any time using an unsubscribe option provided in the message or by contacting us at <a href="mailto:hello@flyboys.dev">hello@flyboys.dev</a>.</p>
+
+          <h3>Cookies and Analytics</h3>
+          <p>We do not use third-party advertising trackers or sell information for advertising purposes.</p>
+          <p>Our websites and services may use limited technical tools or analytics necessary to understand performance, diagnose problems, maintain security, and improve our products.</p>
+          <p>If our use of tracking or analytics materially changes, we will update this policy as appropriate.</p>
+
+          <h3>How We Share Information</h3>
+          <p>We do not sell your personal information.</p>
+          <p>We may share or allow information to be processed by service providers that help us operate our services, such as hosting, infrastructure, email, analytics, and other technical providers.</p>
+          <p>We may also disclose information when required by law or when reasonably necessary to protect the rights, safety, or security of Flyboys, our users, or others.</p>
+
+          <h3>Data Retention and Deletion</h3>
+          <p>We retain personal information only for as long as reasonably necessary to provide our services, fulfill the purposes described in this policy, or comply with legal obligations.</p>
+          <p>You may request access to, correction of, or deletion of personal information associated with you by contacting us at <a href="mailto:hello@flyboys.dev">hello@flyboys.dev</a>.</p>
+          <p>If you unsubscribe from product updates, we will stop using your email address to send those communications.</p>
+
+          <h3>Children's Privacy</h3>
+          <p>Our services are not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+          <p>If you believe a child has provided personal information to us, please contact us so that we can address it.</p>
+
+          <h3>Security</h3>
+          <p>We use reasonable measures intended to protect information in our possession. However, no method of transmitting or storing information can be guaranteed to be completely secure.</p>
+
+          <h3>Third-Party Services and Links</h3>
+          <p>Our services may use or link to products and services operated by third parties. Third-party providers may process information according to their own privacy policies and our agreements with them.</p>
+
+          <h3>Your Privacy Rights</h3>
+          <p>Depending on where you live, you may have legal rights regarding your personal information, including rights to access, correct, or delete certain information.</p>
+          <p>To make a privacy request, contact us at <a href="mailto:hello@flyboys.dev">hello@flyboys.dev</a>.</p>
+
+          <h3>Changes to This Policy</h3>
+          <p>We may update this Privacy Policy as our products, services, or legal obligations change. When we make changes, we will update the &quot;Last updated&quot; date at the top of this page.</p>
+
+          <h3>Contact</h3>
+          <p>For questions or privacy requests, contact:</p>
+          <p><strong>Flyboys, LLC</strong><br /><a href="mailto:hello@flyboys.dev">hello@flyboys.dev</a></p>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
